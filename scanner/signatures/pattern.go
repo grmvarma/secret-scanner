@@ -494,7 +494,7 @@ var PatternSignatures = []Signature{
 	//},
 	PatternSignature{
 		part:        PartContent,
-		match:       regexp.MustCompile(`^https://hooks.slack.com/services/T[a-zA-Z0-9_]{8}/B[a-zA-Z0-9_]{8}/[a-zA-Z0-9_]{24}$`),
+		match:       regexp.MustCompile(`^https://hooks\\.slack\\.com/services/T[a-zA-Z0-9_]{8}/B[a-zA-Z0-9_]{8}/[a-zA-Z0-9_]{24}$`),
 		description: "Slack Webhook",
 		comment:     "",
 	},
