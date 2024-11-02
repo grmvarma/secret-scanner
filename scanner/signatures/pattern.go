@@ -470,7 +470,7 @@ var PatternSignatures = []Signature{
 	},
 	PatternSignature{
 		part:        PartContent,
-		match:       regexp.MustCompile(`^(https\\://outlook\\.office.com/webhook/[0-9a-f-]{36}\\@)$`),
+		match:       regexp.MustCompile(`^(https\\://outlook\\.office\\.com/webhook/[0-9a-f-]{36}\\@)$`),
 		description: "Outlook Team",
 		comment:     "",
 	},
